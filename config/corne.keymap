@@ -86,5 +86,13 @@
                             &trans  &trans  &trans        &trans  &trans        &bt BT_SEL 0
             >;
         };
+
+        extra1 {
+            status = "reserved";
+        };
+
+        extra2 {
+            status = "reserved";
+        };
     };
 };
