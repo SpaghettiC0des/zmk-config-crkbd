@@ -15,6 +15,13 @@
 include:
   - board: nice_nano_v2
     shield: corne_left
+    artifact-name: crkbd_zmk_left_default
+  - board: nice_nano_v2
+    shield: corne_right
+    artifact-name: crkbd_zmk_right_default
+
+  - board: nice_nano_v2
+    shield: corne_left
     snippet: studio-rpc-usb-uart
     artifact-name: crkbd_zmk_left_with_studio
   - board: nice_nano_v2
