@@ -29,7 +29,7 @@ include:
     shield: corne_left
     snippet: studio-rpc-usb-uart
     # cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=CorneChoc
-    cmake-args: -DZMK_CONFIG=./config/cornechoc.conf
+    cmake-args: DCONFIG_ZMK_KEYBOARD_NAME="CorneChoc" -DCONFIG_ZMK_DISPLAY=y
     artifact-name: chocoflan_zmk_left_with_studio
   - board: nice_nano_v2
     shield: corne_left
