@@ -20,6 +20,16 @@ include:
   - board: nice_nano_v2
     shield: corne_right
     artifact-name: crkbd_zmk_right_with_studio
+   - board: nice_nano_v2
+    shield: corne_left
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=CorneChoc
+    artifact-name: chocoflan_zmk_left_with_studio
   - board: nice_nano_v2
+    shield: corne_left
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=CorneGLP
+    artifact-name: corne_glp_zmk_left_with_studio
+   - board: nice_nano_v2
     shield: settings_reset
  
